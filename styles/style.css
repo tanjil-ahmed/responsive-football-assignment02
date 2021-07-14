@@ -37,6 +37,10 @@ header {
 .banner-image img {
   width: 556px;
   height: 456px;
+  transition: 0.2s ease-in;
+}
+.banner-image img:hover {
+  transform: rotate(10deg);
 }
 .watch-button {
   background-color: #e02c6d;
@@ -50,6 +54,14 @@ header {
 .watch-button a {
   text-decoration: none;
   color: white;
+}
+h3 {
+  color: #f35c94;
+}
+.watch-button:hover {
+  color: #e02c6d;
+  background: #f35c94;
+  box-shadow: 0 0 10px #f35c94, 0 0 40px #f35c94, 0 0 10px #f35c94;
 }
 
 /* Player_Grid */
@@ -75,10 +87,17 @@ header {
   display: flex;
   flex-direction: column;
 }
+.player-image {
+  overflow: hidden;
+}
 .player-image img {
   margin-top: 0px;
   width: 300px;
   height: 256px;
+  transition: 0.3s ease-in-out;
+}
+.player-image img:hover {
+  transform: scale(1.25);
 }
 .player-info {
   color: #6c6c6c;
@@ -88,6 +107,17 @@ header {
 }
 .player-info h3 {
   color: #18191f;
+}
+/* Media */
+.media {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 70px;
+  align-items: center;
+  justify-content: space-between;
+}
+.content {
 }
 /* footer */
 
