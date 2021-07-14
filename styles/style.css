@@ -107,6 +107,42 @@ body {
   color: #18191f;
 }
 
+/* Subscribe-From */
+.label-text {
+  font-weight: bold;
+  font-size: 30px;
+  color: #e02c6d;
+}
+.input-box {
+  width: 200px;
+  height: 30px;
+  border: 2px solid slateblue;
+  border-radius: 10px;
+}
+.subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.subscribe-button {
+  border-radius: 5px;
+  margin-left: 20px;
+  height: 30px;
+  background-color: #e02c6d;
+  border: none;
+  color: white;
+}
+.subscribe-button:hover {
+  color: #e02c6d;
+  background: #f35c94;
+  box-shadow: 0 0 10px #f35c94, 0 0 40px #f35c94, 0 0 10px #f35c94;
+}
+.subscribe-button a {
+  text-decoration: none;
+  color: white;
+}
+
 /* Media */
 .media {
   display: flex;
