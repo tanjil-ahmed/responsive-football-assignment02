@@ -172,6 +172,22 @@ h3 {
     display: flex;
     flex-direction: column;
   }
+  .banner-heading {
+    margin-top: 140px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    width: 50%;
+    color: #ffff;
+    font-size: 40px;
+  }
+  .banner-image {
+    margin-top: 0px;
+  }
+
+  .banner-image img {
+    width: 329px;
+    height: 260px;
+  }
 
   /* Player-Section */
 
