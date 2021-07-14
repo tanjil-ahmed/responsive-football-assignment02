@@ -159,17 +159,29 @@ h3 {
 
 /* Media Query */
 @media only screen and (max-width: 688px) {
+  /* Banner */
+
   .banner-container {
     background-image: linear-gradient(315deg, #2a2a72 0%, #0068a3 74%);
     width: 100%;
     height: 100%;
     margin-bottom: 70px;
   }
+  .banner {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Player-Section */
+
   .players {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
+
+  /* Meadia-Section */
   .media {
     display: flex;
     flex-direction: column;
