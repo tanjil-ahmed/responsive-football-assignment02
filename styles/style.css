@@ -1,0 +1,132 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #0068a3 74%);
+  margin-bottom: 70px;
+}
+.banner-container {
+}
+.banner {
+  display: flex;
+  margin-left: 140px;
+  margin-right: 140px;
+}
+
+.banner-heading {
+  margin-top: 140px;
+  margin-bottom: 250px;
+  margin-left: 5%;
+  width: 50%;
+  color: #ffff;
+  font-size: 40px;
+}
+.banner-heading h1 {
+  width: 485px;
+  height: 230px;
+}
+.banner-image {
+  width: 50%;
+  margin-top: 135px;
+  margin-bottom: 86px;
+}
+.banner-image img {
+  width: 556px;
+  height: 456px;
+}
+.watch-button {
+  background-color: #e02c6d;
+  width: 168px;
+  height: 44px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.watch-button a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Player_Grid */
+.players {
+  margin-top: 70px;
+  margin-left: 195px;
+  margin-right: 195px;
+  margin-bottom: 100px;
+  /* border: 1px solid brown; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 27px;
+}
+.player-blog {
+  width: 330px;
+  height: 474px;
+  /* border: 1px solid brown; */
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.blog-content {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.player-image img {
+  margin-top: 0px;
+  width: 300px;
+  height: 256px;
+}
+.player-info {
+  color: #6c6c6c;
+  width: 300px;
+  height: 154px;
+  margin-bottom: 15px;
+}
+.player-info h3 {
+  color: #18191f;
+}
+/* footer */
+
+/* icons */
+.footer-container {
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 480px;
+  height: 213px;
+  margin-bottom: 60px;
+}
+.footer-image img {
+  width: 480px;
+  height: 110px;
+}
+.footer-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-bg {
+  margin-left: 7px;
+  margin-right: 7px;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #969bab;
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+}
+.circle {
+  color: ;
+}
+
+/* Media Query */
+@media only screen and (max-width: 688px) {
+}
