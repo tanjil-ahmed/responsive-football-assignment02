@@ -160,7 +160,9 @@ h3 {
 /* Media Query */
 @media only screen and (max-width: 688px) {
   /* Banner */
-
+  header {
+    width: 688px;
+  }
   .banner-container {
     background-image: linear-gradient(315deg, #2a2a72 0%, #0068a3 74%);
     width: 100%;
@@ -168,17 +170,25 @@ h3 {
     margin-bottom: 70px;
   }
   .banner {
+    margin-right: 0px;
     margin-left: 15px;
     display: flex;
     flex-direction: column;
   }
   .banner-heading {
+    margin-left: 0px;
     margin-top: 140px;
-    margin-left: 15px;
+
     margin-bottom: 30px;
     width: 50%;
     color: #ffff;
     font-size: 40px;
+  }
+  .banner-heading h1 {
+    width: 278px;
+    font-size: 36px;
+    margin-bottom: 0px;
+    margin-top: 0px;
   }
   .banner-image {
     margin-top: 0px;
@@ -190,20 +200,37 @@ h3 {
   }
 
   /* Player-Section */
-
+  main {
+    width: 688px;
+    display: flex;
+    flex-direction: column;
+  }
   .players {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    margin-left: 15px;
   }
 
   /* Meadia-Section */
   .media {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
   }
   .content {
     margin-top: 20px;
+  }
+  footer {
+    width: 688px;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
   }
 }
